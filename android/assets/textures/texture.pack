@@ -1,0 +1,33 @@
+
+texture.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+pixel.darkgray
+  rotate: false
+  xy: 1, 7
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+pixel.gray
+  rotate: false
+  xy: 1, 4
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+pixel.lightgray
+  rotate: false
+  xy: 4, 7
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+pixel.white
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

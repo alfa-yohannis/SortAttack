@@ -1,0 +1,143 @@
+{
+	"com.badlogic.gdx.graphics.Color": {
+		"white" : {"r":1, "g":1, "b":1, "a":1},
+		"black" : {"r":0, "g":0, "b":0, "a":1},
+		"red" : {"r":1, "g":0, "b":0, "a":1},
+		"green" : {"r":0, "g":1, "b":0, "a":1},
+		"blue" : {"r":0, "g":0, "b":1, "a":1},
+		"gray" : {"r":0.5, "g":0.5, "b":0.5, "a":1},
+		"darkgray": {"r":0.25, "g":0.25, "b":0.25, "a":1},
+		"lightgray": {"r":0.75, "g":0.75, "b":0.75, "a":1}
+	},
+	"com.badlogic.gdx.graphics.g2d.BitmapFont": {
+		
+		"dejavu.white.27": {"file":"fonts/dejavu.white.27.fnt" },
+		"dejavu.white.32": {"file":"fonts/dejavu.white.32.fnt" },
+		"dejavu.white.43": {"file":"fonts/dejavu.white.43.fnt" },
+		"dejavu.white.64": {"file":"fonts/dejavu.white.64.fnt" },	
+		"dejavu.white.85": {"file":"fonts/dejavu.white.85.fnt" },
+		"dejavu.white.128": {"file":"fonts/dejavu.white.128.fnt" },
+		
+		"dejavu.black.27": {"file":"fonts/dejavu.black.27.fnt" },
+		"dejavu.black.32": {"file":"fonts/dejavu.black.32.fnt" },
+		"dejavu.black.43": {"file":"fonts/dejavu.black.43.fnt" },
+		"dejavu.black.64": {"file":"fonts/dejavu.black.64.fnt" },
+		"dejavu.black.85": {"file":"fonts/dejavu.black.85.fnt" },	
+		"dejavu.black.128": {"file":"fonts/dejavu.black.128.fnt" }
+	},
+
+	"com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+		"default": {"font": dejavu.white.64, "fontColor": white},
+		"dejavu.white.27": {"font": dejavu.white.27, "fontColor": white},
+		"dejavu.white.32": {"font": dejavu.white.32, "fontColor": white},
+		"dejavu.white.43": {"font": dejavu.white.43, "fontColor": white},
+		"dejavu.white.64": {"font": dejavu.white.64, "fontColor": white},
+		"dejavu.white.85": {"font": dejavu.white.85, "fontColor": white},
+		"dejavu.white.128": {"font": dejavu.white.128, "fontColor": white},
+		
+		"dejavu.white.gray.27": {"font": dejavu.white.27, "fontColor": white, "background":"pixel.gray"},
+		"dejavu.white.darkgray.27": {"font": dejavu.white.27, "fontColor": white, "background":"pixel.darkgray"},
+		"dejavu.white.lightgray.27": {"font": dejavu.white.27, "fontColor": white, "background":"pixel.lightgray"},
+		
+		"dejavu.white.gray.32": {"font": dejavu.white.32, "fontColor": white, "background":"pixel.gray"},
+		"dejavu.white.darkgray.32": {"font": dejavu.white.32, "fontColor": white, "background":"pixel.darkgray"},
+		"dejavu.white.lightgray.32": {"font": dejavu.white.32, "fontColor": white, "background":"pixel.lightgray"},
+		
+		"dejavu.white.gray.43": {"font": dejavu.white.43, "fontColor": white, "background":"pixel.gray"},
+		"dejavu.white.darkgray.43": {"font": dejavu.white.43, "fontColor": white, "background":"pixel.darkgray"},
+		"dejavu.white.lightgray.43": {"font": dejavu.white.43, "fontColor": white, "background":"pixel.lightgray"},
+		
+		"dejavu.white.gray.64": {"font": dejavu.white.64, "fontColor": white, "background":"pixel.gray"},
+		"dejavu.white.darkgray.64": {"font": dejavu.white.64, "fontColor": white, "background":"pixel.darkgray"},
+		"dejavu.white.lightgray.64": {"font": dejavu.white.64, "fontColor": white, "background":"pixel.lightgray"},
+		
+		"dejavu.white.gray.85": {"font": dejavu.white.85, "fontColor": white, "background":"pixel.gray"},
+		"dejavu.white.darkgray.85": {"font": dejavu.white.85, "fontColor": white, "background":"pixel.darkgray"},
+		"dejavu.white.lightgray.85": {"font": dejavu.white.85, "fontColor": white, "background":"pixel.lightgray"},
+		
+		"dejavu.white.gray.128": {"font": dejavu.white.128, "fontColor": white, "background":"pixel.gray"},
+		"dejavu.white.darkgray.128": {"font": dejavu.white.128, "fontColor": white, "background":"pixel.darkgray"},
+		"dejavu.white.lightgray.128": {"font": dejavu.white.128, "fontColor": white, "background":"pixel.lightgray"}
+			
+	},
+	
+	"com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle": {
+	    "default": {
+	        "font":dejavu.white.32, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.32, "selection":"pixel.lightgray"}
+    	},
+    	"dejavu.white.27": {
+	        "font":dejavu.white.27, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.27, "selection":"pixel.lightgray"}
+    	},
+    	"dejavu.white.32": {
+	        "font":dejavu.white.32, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.32, "selection":"pixel.lightgray"}
+    	},
+    	"dejavu.white.43": {
+	        "font":dejavu.white.43, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.43, "selection":"pixel.lightgray"}
+    	},
+    	"dejavu.white.64": {
+	        "font":dejavu.white.64, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.64, "selection":"pixel.lightgray"}
+    	},
+    	
+    	"dejavu.white.85": {
+	        "font":dejavu.white.85, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.85, "selection":"pixel.lightgray"}
+    	},
+    	"dejavu.white.128": {
+	        "font":dejavu.white.128, "fontColor":white, "background":"pixel.darkgray",
+		    "scrollStyle":{background:"pixel.gray"},
+		    "listStyle":{"font":dejavu.white.128, "selection":"pixel.lightgray"}
+    	}
+	},
+	
+	"com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle": {
+		"default": {"font":dejavu.white.32, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"},
+		"dejavu.white.27": {"font":dejavu.white.27, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"},
+		"dejavu.white.32": {"font":dejavu.white.32, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"},
+		"dejavu.white.43": {"font":dejavu.white.43, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"},
+		"dejavu.white.64": {"font":dejavu.white.64, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"},
+		"dejavu.white.85": {"font":dejavu.white.85, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"},
+		"dejavu.white.128": {"font":dejavu.white.128, "fontColor":white,"background":"pixel.darkgray","cursor":"pixel.gray"}
+	},
+	
+	"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+		"default": {"font":dejavu.white.32},
+		"dejavu.white.27": {"font":dejavu.white.27},
+		"dejavu.white.32": {"font":dejavu.white.32},
+		"dejavu.white.43": {"font":dejavu.white.43},
+		"dejavu.white.64": {"font":dejavu.white.64},
+		"dejavu.white.85": {"font":dejavu.white.85},
+		"dejavu.white.128": {"font":dejavu.white.128},
+		
+		"dejavu.white.white.27": {"font":dejavu.white.27, "up":"pixel.white"},
+		"dejavu.white.white.32": {"font":dejavu.white.32, "up":"pixel.white"},
+		"dejavu.white.white.43": {"font":dejavu.white.43, "up":"pixel.white"},
+		"dejavu.white.white.64": {"font":dejavu.white.64, "up":"pixel.white"},
+		"dejavu.white.white.85": {"font":dejavu.white.85, "up":"pixel.white"},
+		"dejavu.white.white.128": {"font":dejavu.white.128, "up":"pixel.white"},
+		
+		"dejavu.white.gray.27": {"font":dejavu.white.27, "up":"pixel.gray"},
+		"dejavu.white.gray.32": {"font":dejavu.white.32, "up":"pixel.gray"},
+		"dejavu.white.gray.43": {"font":dejavu.white.43, "up":"pixel.gray"},
+		"dejavu.white.gray.64": {"font":dejavu.white.64, "up":"pixel.gray"},
+		"dejavu.white.gray.85": {"font":dejavu.white.85, "up":"pixel.gray"},
+		"dejavu.white.gray.128": {"font":dejavu.white.128, "up":"pixel.gray"},
+		
+		"dejavu.white.darkgray.27": {"font":dejavu.white.27, "up":"pixel.darkgray"},
+		"dejavu.white.darkgray.32": {"font":dejavu.white.32, "up":"pixel.darkgray"},
+		"dejavu.white.darkgray.43": {"font":dejavu.white.43, "up":"pixel.darkgray"},
+		"dejavu.white.darkgray.64": {"font":dejavu.white.64, "up":"pixel.darkgray"},
+		"dejavu.white.darkgray.85": {"font":dejavu.white.85, "up":"pixel.darkgray"},
+		"dejavu.white.darkgray.128": {"font":dejavu.white.128, "up":"pixel.darkgray"}
+	}
+}
